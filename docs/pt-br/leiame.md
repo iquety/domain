@@ -1,18 +1,14 @@
-# Iquety Prospection
+# Iquety Domain
 
 [English](../../readme.md) | [Português](leiame.md)
 -- | --
 
 ## Sinopse
 
-Este repositório contém as ferramentas necessárias, para a implementação de uma arquitetura baseada em eventos.
-
-Esta modalidade, também chamada de "Prospecção de Eventos", armazena os eventos de todas as entidades 
-em uma única "tabela", removendo a necessidade de esquemas distintos para cada entidade.
-
+Este repositório contém as ferramentas necessárias, para a implementação de modelos de domínio.
 
 ```bash
-composer require iquety/prospection
+composer require iquety/domain
 ```
 
 Para informações detalhadas, consulte o [Sumário da Documentação](indice.md).

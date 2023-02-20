@@ -1,13 +1,15 @@
 # Documentation Summary
 
-[◂ Back to readme](../../readme.md) | [Filesystem ▸](01-filesystem.md)
+[◂ Back to readme](../../readme.md) | [Entities ▸](01-entities.md)
 -- | --
 
-## Introdução
+## Introduction
 
-Bem vindo(a) à documentação da biblioteca Iquety Security. Aqui você encontra as informações necessárias para utilizar as funcionalidades disponíveis e usufruir ao máximo da biblioteca.
+Welcome to the Iquety Domain library documentation. Here you will find the necessary information to use the available functionalities and make the most of the library.
 
-### Conteúdo
+### Contents
 
-- [Filesystem](01-filesystem.md)
-- [Path](02-path.md)
+- [Entities](01-entities.md)
+- [Values](02-values.md)
+- [Identities](03-identities.md)
+- [Events](04-events.md)
