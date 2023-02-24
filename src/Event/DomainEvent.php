@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Iquety\Domain\Event;
 
 use Iquety\Domain\Core\IdentityObject;
+use Iquety\Domain\Core\ValueParser;
 use Iquety\PubSub\Event\Event;
 
 /**
@@ -20,4 +21,10 @@ abstract class DomainEvent extends Event
     abstract public static function aggregateLabel(): string;
 
     abstract public static function label(): string;
+
+    /** @return array<string,mixed> */
+    public function toPrimitives(): array
+    {
+        return (new ValueParser($this->toArray()))->toPrimitives();
+    }
 }
